@@ -3,11 +3,11 @@ body {
     margin: 0;
 }
 
-.header, .hero, .information, .quote-part, .call-to-action, .footer {
-    padding: 0 100px;
+.padding {
+    padding: 0 200px;
 }
 
-.header, .hero, .footer{
+.hero, .footer{
     background-color: #1f2937;
     display: flex;
 }
@@ -20,16 +20,14 @@ body {
 }
 
 .hero {
-    height: 450px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: space-between;
-    gap: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-logo-text {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 ul {
@@ -45,6 +43,19 @@ a {
     color: #e5e6eb;
 }
 
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
@@ -56,9 +67,22 @@ a {
     font-size: 18px; 
 }
 
+#button {
+    margin: 10px 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: 0;
+}
+
+#button.button-call-to-action {
+    border: 2px solid white;
+}
+
 img {
-    max-width: 70%;
-    height: 70%;
+    max-width: 400px;
+    height: 250px;
     object-fit: contain;
 }
 
@@ -68,8 +92,23 @@ img {
     font-weight: 800;
 }
 
-.button, .call-to-action {
+#button, .call-to-action {
     background-color: #3882f6;
+    color: white;
+}
+
+.information {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote-part {
@@ -83,13 +122,10 @@ img {
     color: #1f2937;
 }
 
-.information {
-    text-align: center;
-}
-
 .info-sub {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .call-to-action {
@@ -102,8 +138,9 @@ img {
 }
 
 .illustration {
-    width: 100px;
-    height: 100px;
-    border: 1px solid lightblue;
-    align-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin: 5px;
 }
