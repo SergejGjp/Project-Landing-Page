@@ -56,10 +56,6 @@ nav .container {
     align-items: center;
 }
 
-.hero .container {
-   
-}
-
 .hero-main {
     display: flex;
     height: 100%;
@@ -103,4 +99,41 @@ button {
     font-weight: bold;
     border: 0px;
     margin: 10px;
+}
+
+.information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    justify-content: center;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.card div {
+    text-align: center;
+}
+
+.illustration {
+    width: 150px; 
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.sub {
+    max-width: 150px;
+}
+
+.info-sub {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
 }
