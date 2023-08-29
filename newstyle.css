@@ -45,7 +45,7 @@ nav .container {
     text-decoration: none;
     margin-left: 15px;
     font-size: 18px;
-    color: #e5e7be;
+    color: #e5e7eb;
 
 }
 
@@ -79,7 +79,7 @@ img {
 
 .hero-secondary-text {
     font-size: 18px;
-    color: #e5e7be;
+    color: #e5e7eb;
 }
 
 .hero-text {
@@ -137,3 +137,29 @@ button {
     justify-content: space-evenly;
     width: 800px;
 }
+
+section.quote-section {
+    background-color: #e5e7eb;
+    min-height: 400px;
+}
+
+.quote-section .container {
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    min-height: 400px;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.famous-person {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
