@@ -204,3 +204,13 @@ section.call-to-action {
     font-size: 18px;
     font-weight: normal;
 }
+
+.footer-section {
+    min-height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
